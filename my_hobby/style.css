@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	background: #FFF8DC;
+}
+
+.wrapper {
+	height: 100%;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.page {
+	min-height: 100%;
+	padding-bottom: 90px;
+	box-sizing: border-box;
+}
+
+.header {
+	width: 100%px;
+	min-width: 1000px;
+	height: 120px;
+	margin-top: 7px;
+	background: black;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.header-logo {
+	padding-top: 20px;
+	padding-left: 85px;
+	width: 300px;
+	font-family: Monotype Corsiva, Tahoma, Arial;
+	font-size: 65px;
+	color: white;
+	display: inline-block;
+}
+
+.footer{
+	height: 90px;
+	margin-top: -92px;
+	box-sizing: border-box;
+
+	background-color: rgba(204, 204, 204, 0.4);
+	border-radius: 10px 10px 10px 10px;
+	padding: 15px;
+	color: black;
+	font-size: 11px;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+	text-align: center;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 25px;
+}
+ 
+.navigation a{
+	text-decoration: none;
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 30px;
+    background-color: black;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 35px;
+    font-family: Monotype Corsiva, Tahoma, Arial;
+    color: white;
+}
+ 
+.navigation a li:hover{
+    color: #DC143C;
+}
+
+.slogan {
+	height: 50px;
+	width: 60%;
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(204, 204, 204, 0.4);
+	margin: 10px auto 0 auto;
+	padding-top: 14px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+}
+
+.content {
+	width: 100%;
+	float: right;
+	margin-right: 20px;
+	margin-top: 50px;
+}
+
+.content h1 {
+	font-size: 35px;
+}
+
+.content p {
+	margin-top: 20px;
+	font-size: 22px;
+	text-align: justify;
+}
+
+.about {
+	margin: 30px 20px 0 30px;
+	font-size: 10px;
+	text-align: justify;
+}
+
